@@ -1,0 +1,87 @@
+# Zależności
+node_modules
+
+# Zmienne środowiskowe (NAJWAŻNIEJSZE!)
+.env
+
+# Logi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Pliki pokrycia testów
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Gruntowe katalogi przechowywania
+.grunt
+
+# Bower katalog zależności
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Skompilowane binarki
+build/Release
+
+# Katalogi zależności
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Opcjonalne cache npm
+.npm
+
+# Opcjonalne eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Opcjonalne REPL history
+.node_repl_history
+
+# Dane wyjściowe z `npm pack`
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Pliki edytorów i systemu operacyjnego
+.DS_Store
+Thumbs.db
